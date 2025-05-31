@@ -1,0 +1,35 @@
+form {
+    width:500px;
+    height:350px;
+    border:1px solid black ;
+    flex-direction: column;
+    display: flex;
+    gap:20px;
+    align-items: start;
+}
+input{
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border:1px solid salmon ;
+}
+.filterInput {
+    margin-top: 20px;
+}
+li {
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.btnDelete{
+    width:100px;
+    height: 30px;
+    background-color: #FFF;
+    border:1px dotted green;
+}
+.addBtn {
+    width:120px;
+    height: 40px;
+    background-color: #FFF;
+    border:1px dotted rgb(203, 52, 52);
+}
